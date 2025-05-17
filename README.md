@@ -117,11 +117,3 @@ hypermart-checkout/
 3. **Advanced Algorithms**
    - Machine learning-based assignment considering historical data
    - Predictive queue management
-
-## License
-
-[Include your license information here]
-
-## Contact
-
-[Your contact information]
