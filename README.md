@@ -4,7 +4,7 @@ A real-time queue management system for efficiently assigning customers to check
 
 ## Demo
 
-The application can be accessed online at [Hypermart Checkout System](https://your-deployment-url.com) or by running the HTML file locally.
+The application can be accessed running the HTML file locally.
 
 ![Hypermart Checkout System Screenshot](screenshot.png)
 
