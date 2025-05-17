@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hypermart Checkout System</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Hypermart Checkout System</h1>
+        <p>Real-time queue management system</p>
+    </div>
+    
+    <div class="input-container">
+        <input type="number" class="input-field" id="itemsInput" placeholder="Enter number of items" min="1">
+        <button class="checkout-btn" id="checkoutBtn">Checkout Items</button>
+    </div>
+    
+    <div class="counters-container">
+        <div class="counter" id="counter1">
+            <div class="counter-header">
+                <h2 class="counter-title">Counter 1</h2>
+                <div class="customers">
+                    <span class="customers-icon">👤</span>
+                    <span id="customers1">0 customers</span>
+                </div>
+            </div>
+            
+            <div class="item-list" id="itemList1">
+
+            </div>
+            
+            <div class="total" id="total1">Total Items: 0</div>
+        </div>
+        
+        <div class="counter" id="counter2">
+            <div class="counter-header">
+                <h2 class="counter-title">Counter 2</h2>
+                <div class="customers">
+                    <span class="customers-icon">👤</span>
+                    <span id="customers2">0 customers</span>
+                </div>
+            </div>
+            
+            <div class="item-list" id="itemList2">
+                <!-- Empty initially -->
+            </div>
+            
+            <div class="total" id="total2">Total Items: 0</div>
+        </div>
+        
+        <div class="counter" id="counter3">
+            <div class="counter-header">
+                <h2 class="counter-title">Counter 3</h2>
+                <div class="customers">
+                    <span class="customers-icon">👤</span>
+                    <span id="customers3">0 customers</span>
+                </div>
+            </div>
+            
+            <div class="item-list" id="itemList3">
+                <!-- Empty initially -->
+            </div>
+            
+            <div class="total" id="total3">Total Items: 0</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
